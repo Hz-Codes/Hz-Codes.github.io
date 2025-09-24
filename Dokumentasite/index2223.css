@@ -1,0 +1,374 @@
+
+/* DESKTOP INTERFACE */
+
+@media only screen and (min-width: 951px){
+
+
+body{
+    background-color: rgb(31, 31, 31);
+    margin: 15%;
+    margin-top: 3%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cocogoose;
+    src: url("Fonts/cocogoose/cocogoose.ttf"); 
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url("Fonts/lemon_milk/LEMONMILK-Medium.otf"); 
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("Fonts/bebas_neue/bebasneue-reg.ttf"); 
+}
+
+@font-face {
+    font-family: SFPro;
+    src: url("Fonts/SFpro/SFpro.otf");
+}
+
+.banner{
+    padding-top: 3%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+/* LEFT */
+
+.lefttt{
+    order: 1;
+    float: left;
+    width: 24.45%;
+    position: relative;
+    background-color: #5a5a5a77;
+    padding-top: 2.5%;
+    padding-bottom: 0.3%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 1%;
+}
+
+.lefttt h1{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: LemonMilk;
+    color: #dddddd;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.lefttt a {
+    display: block;
+    width: 100%;
+    float: left;
+    color: rgb(211, 211, 211);
+    font-family: SFPro;
+    text-align: left;
+    font-size: 0.91vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 0%;
+
+}
+
+/* MID CONTENT */
+
+.mid-content{
+    order: 2;
+    font-family: SFPro;
+    letter-spacing: 0.65px;
+    float: left;
+    display: grid;
+    position: relative;
+    text-align: left;
+    padding: 0 20%;
+    padding-top: 1%;
+    padding-left: 1.3%;
+    padding-bottom: 1.3vw;
+    width: 100%;
+    background-color: #bbbbbb5e;
+    margin-top: 1%;
+    padding-right: 0%;
+}
+
+.mid-content h1{
+    font-family: LemonMilk;
+    text-decoration: underline 0.3vw;
+    text-underline-offset: 0.3vw;
+    color: #dddddd;
+    font-size: 1.5vw;
+}
+
+.mid-content h2{
+    font-family: LemonMilk;
+    text-decoration: underline 0.1vw;
+    text-underline-offset: 0.3vw;
+    color: #dddddd;
+    font-size: 1vw;
+}
+
+.mid-content p1{
+    padding-right: 1vw;
+    color: #d7d7d7;
+    font-size: 100%;
+}
+
+.mid-content a{
+    padding: 10px;
+}
+
+/* RIGHT */
+
+.righttt{
+    order: 3;
+    color: white;
+    float: left;
+    width: 10.85vw;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0.7vw;
+    background-color: #5a5a5a77;
+    padding-bottom: 3vw;
+}
+
+.righttt h1{
+    font-family: LemonMilk;
+    font-size: 1.79vw;
+    text-align: center;
+    color: #dddddd;
+}
+
+.righttt h2{
+    font-family: SFPro;
+    font-size: 0.7vw;
+    text-align: center;
+    color: #dddddd;
+}
+
+.righttt .mapico img{
+    text-align: center;
+    width: 7vw;
+    border: 9px solid #2c2c2c00;
+}
+
+}
+
+
+
+
+
+
+
+/**********************************************/
+
+
+
+
+
+
+
+
+/* MOBILE INTERFACE */
+
+
+@media only screen and (max-width: 950px){
+
+body{
+    background-color: rgb(31, 31, 31);
+/*    background-image: url("bgi\ \(2\).JPG");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat:repeat;
+    */
+    margin: 9%;
+    margin-top: 25%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cocogoose;
+    src: url("Fonts/cocogoose/cocogoose.ttf"); 
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url("Fonts/lemon_milk/LEMONMILK-Medium.otf"); 
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("Fonts/bebas_neue/bebasneue-reg.ttf"); 
+}
+
+@font-face {
+    font-family: SFPro;
+    src: url("Fonts/SFpro/SFpro.otf");
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* LEFT */
+
+.lefttt{
+    order: 2;
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #5a5a5a77;
+    padding-top: 2.5%;
+    padding-bottom: 0.3%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 1%;
+}
+.lefttt h1{
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: LemonMilk;
+    color: #dddddd;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.lefttt a{
+    display: block;
+    width: 100%;
+    float: left;
+    color: rgb(211, 211, 211);
+    font-family: SFPro;
+    text-align: center;
+    font-size: 2.7vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 0%;
+
+}
+.lefttt bsbs a{
+    display: block;
+    padding-right: 1vw;
+    color: #d7d7d7;
+    font-size: 100%;
+}
+
+
+/* MID CONTENT */
+
+.mid-content{
+    order: 1;
+    font-family: SFPro;
+    letter-spacing: 0.65px;
+    float: left;
+    display: grid;
+    position: relative;
+    text-align: left;
+    padding: 0 20%;
+    padding-top: 7%;
+    padding-left: 3.3%;
+    padding-bottom: 3.3vw;
+    width: 100%;
+    background-color: #bbbbbb5e;
+    margin-top: 1%;
+    margin-bottom: 1.7%;
+    padding-right: 0%;
+}
+
+.mid-content h1{
+    font-family: LemonMilk;
+    text-decoration: underline 0.5vw;
+    text-underline-offset: 0.7vw;
+    color: #dddddd;
+    font-size: 4.5vw;
+    padding-bottom: 1.5vw;
+    text-align: center;
+}
+
+.mid-content h2{
+    font-family: LemonMilk;
+    text-decoration: underline 0.1vw;
+    text-underline-offset: 0.3vw;
+    color: #dddddd;
+    font-size: 1vw;
+}
+
+.mid-content p1{
+    padding-right: 1vw;
+    color: #d7d7d7;
+    font-size: 100%;
+
+}
+
+.mid-content a{
+    font-size: 3vw;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+
+/* RIGHT */
+
+.righttt{
+    order: 3;
+    display: none;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0vw;
+    background-color: #5a5a5a77;
+    padding-bottom: 3vw;
+}
+
+.righttt h1{
+    font-family: LemonMilk;
+    font-size: 1.79vw;
+    text-align: center;
+    color: #dddddd;
+}
+
+.righttt h2{
+    font-family: SFPro;
+    font-size: 0.7vw;
+    text-align: center;
+    color: #dddddd;
+}
+
+.righttt .mapico img{
+    text-align: center;
+    width: 7vw;
+    border: 9px solid #2c2c2c00;
+}
+
+
+.info-icon {
+    position: relative;
+    display: inline-block;
+}
+
+}    
